@@ -1,0 +1,71 @@
+/* for overall background */
+* { 
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+/*  general styles for li, a, button */
+li, a, button {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%; /* Top and bottom padding: 30px, Left and right padding: 10% */
+}
+
+/* Logo styles */
+.logo {
+    cursor: pointer;
+}
+
+/* Navigation styles */
+nav {
+    order: 1;
+}
+
+/* Navigation links styles */
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 10px; /* Left and right padding: 10px */
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: brown;
+}
+
+/* Contact button styles */
+.cnt {
+    order: 1;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(21, 21, 33);
+}
